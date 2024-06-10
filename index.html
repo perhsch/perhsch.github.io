@@ -1,0 +1,159 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta 
+            name="description"
+            content="
+Cybersecurity Expert - Full Stack Developer - Problem Solver
+            
+I love making stuff, solving stuff, finding stuff and hiding stuff">
+        <meta name="author" content="nscp">
+        <meta name="keywords" content="nscp">
+        <meta name="theme-color" content="#7A31C7">
+
+        <meta property="og:image" content="https://avpxyyf.github.io/thumb-icon.png">
+        
+        <link rel="icon" type="image/x-icon" href="favicon.ico">
+        <title>nscp</title>
+    </head>
+
+    <body>
+        <!--
+            Ah, I see, someone who likes to inspect the source code. Cheers to you mate!
+        -->
+        <div class="page">
+            <h1>Periklis Chatzikyriakou (nscp)</h1>
+            <h3>SOC Analyst</h3>
+            <h3>Programmer</h3>
+            <h3>Electrical/Computer Engineer</h3></br>
+
+            <h3>Jack of all trades on a path to specialization. </br>Trying to broaden and refine my skills.</h3></br>
+
+            <h2><u>Projects</u></h2>
+            <h3 style="text-align: left;">
+                • volh4x v1&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;CS:GO external cheat (Aug 05 2019 ~ Aug 03 2022)
+                </br></br>
+                • volh4x remastered&nbsp;&nbsp;&nbsp;CS2 external read-only cheat (active, undetected)
+                </br></br>
+				• Winner of:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;"Kozani 2030: On the Path to Climate Neutrality
+            </h3>
+
+
+            <h2><u>You can find me on</u></h2>
+
+            <a href="https://github.com/perisch04" target="_blank"  title="GitHub">
+                <img src="./icons/github.png" width="40" height="40"></img>
+            </a>
+
+            <div class="sep"></div>
+
+            <a href="https://www.linkedin.com/in/perhsch/" target="_blank" title="LinkedIn">
+                <img src="./icons/linkedin.png" width="40" height="40"></img>
+            </a>
+
+            <div class="sep"></div>
+
+            <a href="https://www.instagram.com/perhs.xx/" target="_blank" title="Instagram">
+                <img src="./icons/instagram.png" width="40" height="40"></img>
+            </a>
+
+            <div class="sep"></div>
+            <a href="discord://-/users/519456376603279372" target="_blank" title="Discord">
+                <img src="./icons/discord.png" width="40" height="40"></img>
+            </a>
+
+            </br></br>
+			<h5>Made by <a href="https://github.com/avpxyyf" target="_blank" style="text-decoration: none; color: blue;">avpxyyf</a></h5>
+
+        </div>
+
+        <script>
+            const title = "nscp";
+            document.title = "\u2800";
+
+            const sleep = ms => new Promise(r => setTimeout(r, ms));
+
+            (async () => {
+                while (true) {
+                    await sleep(1000);
+
+                    for (i = 0; i < title.length; i++) {
+                        new_title = "";
+                        for (j = 0; j < i+1; j++) {
+                            new_title += title[j];
+                        }
+                        document.title = new_title;
+                        await sleep(250);
+                    }
+
+                    await sleep(1000);
+
+                    for (i = title.length - 1; i >= 0; i--) {
+                        new_title = ""
+                        for (j = 0; j < i; j++) {
+                            new_title += title[j];
+                        }
+                        if (!new_title) new_title = "\u2800";    
+                        document.title = new_title;
+                        await sleep(250);
+                    }
+                }
+            })();
+        </script>
+
+        <style>
+            body {
+                background-color: #000;
+                color: #fff;
+                font-family: monospace;
+                text-align: center;
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+
+                background: linear-gradient(to bottom left,  #200505, #050520);
+            }
+
+            .page {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+
+                padding: 20px;
+
+                background: rgba(0, 0, 0, 0.5);
+
+                box-shadow: -5px 5px 5px #3131c7, -5px 5px 20px #3131c7, 5px -5px 5px #c73131, 5px -5px 20px #c73131;
+
+                border-radius: 25px;
+            }
+
+            a, a:visited {
+                text-decoration: none;
+            }
+
+            a img, a:visited img {
+                transition: all 0.25s;
+            }
+
+            a:hover img, a:visited:hover img {
+                transform: scale(1.2);
+                filter: drop-shadow(0 0 10px #31C7C7);
+            }
+
+            .sep {
+                height: 40px;
+                width: 1px;
+                display: inline-block;
+                margin: 0 10px;
+                background-color: #fff;
+            }
+
+            .hidden {
+                display: none;
+            }
+        </style>
+    </body>
+</html>
